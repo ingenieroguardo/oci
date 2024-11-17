@@ -94,6 +94,23 @@ Vista del Cluster
 
    ![](./Imagenes/Imagen009.png)
 
+Vista de Carga de trabajo
+
+  ![](./Imagenes/Imagen010.png)
+
+Vista de nodos
+
+ ![](./Imagenes/Imagen011.png)
+
+ Vista de pods
+
+ ![](./Imagenes/Imagen012.png)
+
+ Vista Dashboards Oracle Kubernetes Engine(OKE)
+
+ ![](./Imagenes/Imagen013.png)
+ 
+
 
 
 
