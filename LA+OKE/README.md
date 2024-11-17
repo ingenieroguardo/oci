@@ -26,6 +26,8 @@
 
 <h4 align="justify"> Se asume que se tiene desplegado un cluster OKE con alguna aplicación en funcionamiento</h4>
 
+   ![](./Imagenes/Imagen000.png)
+
 </br>
 
 ## Pasos para utilizar la solución:
