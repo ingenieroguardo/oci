@@ -32,15 +32,22 @@
 
 1. Abra el menú de navegación y haga clic en Observación y gestión. En Logging Analytics, haga clic en Soluciones y, a continuación, en Kubernetes. Se abrirá la página Solución de supervisión de Kubernetes.
 2. En la página Solución de supervisión de Kubernetes, haga clic en Conectar clusters. Se abrirá el asistente Agregar datos. Aquí, la sección Supervisar Kubernetes ya está ampliada. Haga clic en Aceptar de Oracle. Se abrirá la página Configurar supervisión de entorno de OKE.
+   
    ![](./Imagenes/Imagen001.png)
+   
 3. Seleccione el cluster de OKE con el que desea conectarse a Oracle Logging Analytics haciendo clic en la fila correspondiente de la tabla de clusters. Utilice los detalles de la tabla para identificar el cluster de OKE correcto. Haga clic en Siguiente.
+   
    ![](./Imagenes/Imagen002.png)
+   
    ![](./Imagenes/Imagen003.png)
+   
 4. En el menú, seleccione el compartimento para almacenar los datos de telemetría y los recursos de supervisión relacionados.
+   
    ![](./Imagenes/Imagen004.png)
+   
 5. De manera opcional, el servidor de métricas se instala para la recopilación de métricas de uso. Puede desactivar la casilla de control si ya la ha instalado.
 6. Seleccione la opción de despliegue de solución:
-- Activar los clusters anteriores automáticamente: seleccione esta opción para permitir que Oracle Logging Analytics cree automáticamente todos los recursos necesarios.
+- **Activar los clusters anteriores automáticamente**: seleccione esta opción para permitir que Oracle Logging Analytics cree automáticamente todos los recursos necesarios.
 La configuración de recopilación automática de logs crea o actualiza los siguientes recursos:
 
    - Política de IAM y grupos dinámicos
@@ -53,7 +60,7 @@ La configuración de recopilación automática de logs crea o actualiza los sigu
      
    ![](./Imagenes/Imagen005.png)
 
-- Desplegar manualmente los clusters anteriores: seleccione esta opción para que Oracle Logging Analytics cree todos los recursos de Oracle Cloud Infrastructure y le proporcione la capacidad de gestionar el despliegue de Fluentd y otra configuración mediante manifiestos de Helm/Kubernetes en el cluster. Sin embargo, las instrucciones de instalación se proporcionarán al final del flujo de trabajo de conexión. Esta opción permite personalizar la configuración por defecto y otros parámetros de recopilación utilizados en el despliegue automático.
+- **Desplegar manualmente los clusters anteriores**: seleccione esta opción para que Oracle Logging Analytics cree todos los recursos de Oracle Cloud Infrastructure y le proporcione la capacidad de gestionar el despliegue de Fluentd y otra configuración mediante manifiestos de Helm/Kubernetes en el cluster. Sin embargo, las instrucciones de instalación se proporcionarán al final del flujo de trabajo de conexión. Esta opción permite personalizar la configuración por defecto y otros parámetros de recopilación utilizados en el despliegue automático.
 
    ![](./Imagenes/Imagen006.png)
      
@@ -61,9 +68,14 @@ La configuración de recopilación automática de logs crea o actualiza los sigu
 7. Haga clic en Configurar recopilación de logs para confirmar la configuración especificada.
 Ahora se crean los recursos de Oracle Cloud Infrastructure.
 
-  ![](./Imagenes/Imagen007.png)
+   ![](./Imagenes/Imagen007.png)
 
-8. Si selecciona la opción de despliegue manual para la solución, siga las instrucciones de instalación proporcionadas al final del flujo de trabajo de conexión para el despliegue de gráficos de Helm. En esta demostración utilizaremos la opción ##Activar los clusters anteriores automáticamente
+8. Si selecciona la opción de despliegue manual para la solución, siga las instrucciones de instalación proporcionadas al final del flujo de trabajo de conexión para el despliegue de gráficos de Helm. En esta demostración utilizaremos la opción **Activar los clusters anteriores automáticamente**
+
+<h4 align="justify">Con esto, la configuración se ha completado para recopilar los datos del cluster de Kubernetes. Vaya a la página de la solución de supervisión de Kubernetes y espere unos minutos hasta que finalice la recopilación de datos. Cuando la recopilación de datos está en curso, la última telemetría del cluster es Unknown. Puede ver la solución después de que este estado cambie.
+</h4>
+
+   ![](./Imagenes/Imagen008.png)
 
 
 
