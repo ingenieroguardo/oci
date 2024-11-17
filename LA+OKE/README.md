@@ -75,7 +75,25 @@ Ahora se crean los recursos de Oracle Cloud Infrastructure.
 <h4 align="justify">Con esto, la configuración se ha completado para recopilar los datos del cluster de Kubernetes. Vaya a la página de la solución de supervisión de Kubernetes y espere unos minutos hasta que finalice la recopilación de datos. Cuando la recopilación de datos está en curso, la última telemetría del cluster es Unknown. Puede ver la solución después de que este estado cambie.
 </h4>
 
-   ![](./Imagenes/Imagen008.png)
+  ![](./Imagenes/Imagen008.png)
+
+<h4 align="justify">Los datos de telemetría recopilados del cluster de Kubernetes se presentan en varias vistas para ayudarle a obtener información sobre el entorno y su rendimiento.
+</h4>
+
+</br>
+
+## Para ver la solución para el cluster de Kubernetes:
+
+1. Abra el menú de navegación y haga clic en Observación y gestión. En Logging Analytics, haga clic en Soluciones y, a continuación, en Kubernetes. Se abrirá la página Solución de supervisión de Kubernetes.
+2. En la página Solución de supervisión de Kubernetes, haga clic en el nombre del cluster que desea supervisar y analizar. La solución para el cluster seleccionado se abre con la vista por defecto Cluster.
+
+<h4 align="justify">Ahora, explore la solución y las distintas vistas disponibles para recorrer los niveles de la topología y obtener detalles en cada nivel en Vista de cluster, Vista de carga de trabajo, Vista de nodo y Vista de pod. Tenga en cuenta que el contexto de filtro se mantiene entre las diferentes vistas.
+</h4>
+
+Vista del Cluster
+
+   ![](./Imagenes/Imagen009.png)
+
 
 
 
